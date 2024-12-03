@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace LoginColegio2
 {
-    internal class Conexioncs
+    public class Conexion
     {
-
-        //prueba de git
         private SqlConnection conexion;
         string cadenaConexion = "Server=localhost;Database=ColegioBD;Integrated Security=True;";
 
-        public Conexioncs()
+        public Conexion()
         {
             conexion = new SqlConnection(cadenaConexion);
         }
@@ -76,6 +74,7 @@ namespace LoginColegio2
             CerrarConexion(); // Cierra la conexión después de ejecutar el comando
         }
 
-    }
-}
 
+    }
+
+}

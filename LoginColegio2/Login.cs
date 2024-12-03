@@ -13,12 +13,12 @@ namespace LoginColegio2
     public partial class Login : Form
     {
 
-        private Conexioncs conexion;
+        private Conexion conexion;
 
         public Login()
         {
             InitializeComponent();
-            conexion = new Conexioncs();
+            conexion = new Conexion();
         }
 
         private void Login_Load(object sender, EventArgs e)
