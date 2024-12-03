@@ -10,6 +10,8 @@ namespace LoginColegio2
 {
     internal class Conexioncs
     {
+
+        //prueba de git
         private SqlConnection conexion;
         string cadenaConexion = "Server=localhost;Database=ColegioBD;Integrated Security=True;";
 
